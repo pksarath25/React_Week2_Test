@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+.contacts-table > thead > tr {
+    background: #4189C7;
+    color: white;
+    font-weight: bold;
+}
+
+.contacts-table {
+    border: 1px solid black;
+    width: 80%;
+    align-self: center;
+}
+
+table {
+    border-spacing: 40px;
+    border-collapse: collapse;
+    
+}
+td,th {
+    padding: 10px;
+}
+
+.contacts-table > tbody > tr:first-child {
+    background: #4189C7;
+    color: white;
+    font-weight: bold;
+}
+
+
