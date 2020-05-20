@@ -51,7 +51,7 @@ export class NavMenu extends Component {
                         
                         <LinkContainer to={'/fetchcontactdata'}>
                             <NavItem>
-                                <Glyphicon glyph='th-list' /> 2. Contact List (Server Rendered)
+                                <Glyphicon glyph='th-list' /> 2. Contact List (Fetch API)
                             </NavItem>
                         </LinkContainer>
 
