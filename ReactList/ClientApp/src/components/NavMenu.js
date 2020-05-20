@@ -48,6 +48,12 @@ export class NavMenu extends Component {
                                 <Glyphicon glyph='th-list' />1 - e. Contact List with data (JSX) 
                             </NavItem>
                         </LinkContainer>
+
+                        <LinkContainer to={'/contactsplitter'}>
+                            <NavItem>
+                                <Glyphicon glyph='th-list' />1 - f. Contact List (Seperate files)
+                            </NavItem>
+                        </LinkContainer>
                         
                         <LinkContainer to={'/fetchcontactdata'}>
                             <NavItem>
